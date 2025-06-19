@@ -1,0 +1,49 @@
+
+body{
+    color: gray
+}
+h1{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    
+}
+a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+.textodestacado{
+    color:tomato;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.lista {
+    list-style-type: lower-alpha;
+    font-size: x-large;
+}
+.bungee-spice-regular, h1 {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-flex-texto{
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 150;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+}
