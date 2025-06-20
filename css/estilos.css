@@ -1,10 +1,13 @@
 
+*{
+    font-family: "Montserrat", sans-serif;
+}
 body{
     color: gray
 }
 h1{
     color: black;
-    font-size: large;
+    font-size:xx-large;
     font-weight: bold;
     
 }
@@ -21,29 +24,23 @@ a{
 }
 .lista {
     list-style-type: lower-alpha;
-    font-size: x-large;
+    font-size: x-large
 }
-.bungee-spice-regular, h1 {
-  font-family: "Bungee Spice", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.header-img{
+    background-image: url(../img/comida-sana.jpg);
+    background-repeat: no-repeat;
+    /* border-style: dashed; */
+    background-size: cover;
+    background-position: center;
+    height: 50vh
+    /* position: relative; */
 }
-
-.roboto-flex-texto{
-  font-family: "Roboto Flex", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 150;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "wdth" 100,
-    "GRAD" 0,
-    "XOPQ" 96,
-    "XTRA" 468,
-    "YOPQ" 79,
-    "YTAS" 750,
-    "YTDE" -203,
-    "YTFI" 738,
-    "YTLC" 514,
-    "YTUC" 712;
+.header-texto{
+    display: flex;
+    flex-direction:column;
+    width: 40%;
+    padding-top: 8rem;
+    padding-left: 3px;
+    color: rgb(10, 9, 9);
+    font-weight: bold    
 }
