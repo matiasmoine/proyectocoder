@@ -1,46 +1,98 @@
+.static-box {
+    position: static;
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+.relative-box {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 500px;
+    background-color: lightblue;
+    padding: 10px;
+}
+.container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+}
 
-*{
-    font-family: "Montserrat", sans-serif;
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: lightcoral;
+    padding: 10px;
 }
-body{
-    color: gray
+.fixed-box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: lightgreen;
+    padding: 10px;
 }
-h1{
-    color: black;
-    font-size:xx-large;
-    font-weight: bold;
+.sticky-container {
+    height: 1000px;
+    background-color: lightyellow;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 10px;
+    background-color: lightpink;
+    padding: 10px;
+}
+
+/* Header */
+.header-imge{
+    margin: 0;
+    width: 100%;
+    height: 50vh;
+    border-width:2px;
+    border-style: solid;
+    border-color: red;
+}
+.header-img-fit{
+    width:100%;
+    height: 100%;
+}
+/* body */
+.main-contenedor{
+    display: flex
+}
+.main-comida{
+    width: 50%;
+    height: 50vh;
+    border: 2px solid red;
+    text-align: center;
+    object-fit:cover;
+       
+}
+.imagen-fit{
+    width: 200px;
+    height: auto;
+}
+
+/* footer */
+.footer-texto{
+    text-align: center;
+    width: 100%;
+}
+.footer-contenedor{
+    display: flex;
+    justify-content: center;
     
 }
-a{
-    color: blue;
-    font-weight: bold;
-    text-decoration: none;
-}
-.textodestacado{
-    color:tomato;
-    font-weight: bold;
-    text-transform: uppercase;
-
-}
-.lista {
-    list-style-type: lower-alpha;
-    font-size: x-large
-}
-.header-img{
-    background-image: url(../img/comida-sana.jpg);
-    background-repeat: no-repeat;
-    /* border-style: dashed; */
-    background-size: cover;
-    background-position: center;
-    height: 50vh
-    /* position: relative; */
-}
-.header-texto{
-    display: flex;
-    flex-direction:column;
-    width: 40%;
-    padding-top: 8rem;
-    padding-left: 3px;
-    color: rgb(10, 9, 9);
-    font-weight: bold    
+.imagen-logo-fit{
+    width: 70px;
+    height: auto;
 }

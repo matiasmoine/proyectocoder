@@ -1,87 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/estilos.css" />
-    <title>Plan nutricional</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Flex box</title>
 </head>
-
 <body>
-
-    <header class= "header-img">
-        <div class= "header-texto">
-            <h1>
-                Plan Nutricional
-            </h1>
-            <p>Lorem ipsum dolor <b> sit amet consectetur </b>
-                adipisicing elit. Sed modi facilis <span class="textodestacado"> earum id culpa </span> dignissimos cum
-                dolorem vitae facere in. In doloribus facilis id error nulla vero. Quos, eveniet eum!
-            </p>
+    
+</body>
+    <header>
+        <div class="header-imge">
+            <!-- <h1>Header</h1> -->
+            <img src="./img/header-img2.jpg" class="header-img-fit" alt="imagen de comida saludable">
         </div>
     </header>
     <main>
-        <div>
-
-            <!-- comentario hasta el h6 -->
-            <!--parrafo-->
-
-            <p><span class="roboto-flex-texto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-                    voluptate
-                    autem corporis laboriosam doloremque fugit! Minima, saepe mollitia maxime fugit excepturi magnam
-                    tempore
-                    atque
-                    similique a consectetur molestias necessitatibus esse.</span>
-            </p>
+        <div class="main-contenedor">
+            <div class="main-comida">
+                <h2>Desayuno</h2>
+                <img src="./img/desayuno2.webp" class="imagen-fit" alt="imagen desayuno">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="main-comida">
+                <h2>Colación</h2>
+                <img src="./img/colacion2.jpg" class="imagen-fit" alt="imagen colacion">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="main-comida">
+                <h2>Almuerzo o Cena</h2>
+                <img src="./img/almuero_cena.png" class="imagen-fit" alt="imagen almuerzo o cena">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
         </div>
-        <nav>
-            <!-- lista desordenada -->
-            <ul>
-                <li>
-                    <a href="pages/desayuno.html">
-                        Desayuno
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/colaciones.html">
-                        Colación
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/almuerzo.html">
-                        Almuerzo
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/colaciones.html">
-                        Colación
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/desayuno.html">
-                        Merienda
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/cena.html">
-                        Cena
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
     </main>
-    <footer>
-        <img src="img/Footer.png" alt="contacto">
+    <footer class="footer-texto">
+        <h3>Todos los derechos reservado</h3> 
+        <div class="footer-contenedor">            
+            <img src="./img/x-logo.avif" class="imagen-logo-fit" alt="imagen X red social">
+            <img src="./img/ig-logo.jpg" class="imagen-logo-fit" alt="imagen instagram red social">
+            <img src="./img/facebook-logo.png" class="imagen-logo-fit" alt="imagen facebook red social">
+        </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous">
-    </script>
-</body>
-
 </html>
