@@ -53,17 +53,34 @@
 }
 
 /* Header */
-.header-imge{
-    margin: 0;
+.header-image{
+    background-image: url(../img/header-img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     width: 100%;
-    height: 50vh;
+    height: auto;
     border-width:2px;
     border-style: solid;
     border-color: red;
 }
-.header-img-fit{
+.header-contenedor-img{
+    position:relative;
+    width: 100%;
+    height: auto;
+    display:block
+}
+.header-img-fit{   
     width:100%;
-    height: 100%;
+    height: auto;
+    display: block;
+}
+.header-texto{
+    position:absolute;
+    /* width: 100%; */
+    top:10%;
+    left:50%;
+    
 }
 /* body */
 .main-contenedor{
@@ -71,7 +88,7 @@
 }
 .main-comida{
     width: 50%;
-    height: 50vh;
+    height: auto;
     border: 2px solid red;
     text-align: center;
     object-fit:cover;
