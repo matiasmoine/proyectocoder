@@ -60,9 +60,7 @@
     position: relative;
     width: 100%;
     height: auto;
-    border-width:2px;
-    border-style: solid;
-    border-color: red;
+    
 }
 .header-contenedor-img{
     position:relative;
@@ -89,7 +87,6 @@
 .main-comida{
     width: 50%;
     height: auto;
-    border: 2px solid red;
     text-align: center;
     object-fit:cover;
        
@@ -99,14 +96,18 @@
     height: auto;
 }
 
-/* footer */
+.footer-container{
+    width: 100%;
+    border: 2px rgb(0, 0, 0) solid
+}
+
 .footer-texto{
     text-align: center;
     width: 100%;
 }
 .footer-contenedor{
     display: flex;
-    justify-content: center;
+    justify-content: center;  
     
 }
 .imagen-logo-fit{
