@@ -1,3 +1,4 @@
+
 .static-box {
     position: static;
     display: block;
@@ -76,16 +77,20 @@
 .header-texto{
     position:absolute;
     /* width: 100%; */
-    top:10%;
-    left:50%;
+    top:30%;
+    left:40%;
     
 }
 /* body */
 .main-contenedor{
     display: flex
 }
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
 .main-comida{
-    width: 50%;
+    width: 100%;
     height: auto;
     text-align: center;
     object-fit:cover;
@@ -113,4 +118,38 @@
 .imagen-logo-fit{
     width: 70px;
     height: auto;
+}
+
+.header-desayuno-imagen{
+    width: 100%;
+    
+}
+
+#miHeader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #343a40;
+  padding: 10px 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.btn-volver {
+  color: white;
+  background-color: #bbc0c7;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-volver:hover {
+  background-color: #bbc0c7;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* fondo oscuro translúcido */
+  border-radius: 50%;
 }
