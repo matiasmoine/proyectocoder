@@ -16,16 +16,11 @@ a{
     text-decoration: none;
     color: rgb(0, 0, 0)
 }
-.main-comida{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    object-fit:cover;
-       
-}
+
 .imagen-fit{
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 10rem;
+    object-fit:cover;
 }
 
 .footer-container{
@@ -71,7 +66,7 @@ a{
 }
 
 .btn-volver:hover {
-  background-color: #e2e8ef;
+  background-color: #bbc0c7;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
