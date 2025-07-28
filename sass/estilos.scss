@@ -13,7 +13,9 @@ a {
 /* medias queries*/
 @media (max-width: 600px) {
     .header-texto {
-        top: 0;
+        top: 0;        
+    }
+    h2{font-size: 20px;
     }
 }
 
