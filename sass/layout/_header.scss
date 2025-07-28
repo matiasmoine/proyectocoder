@@ -1,0 +1,49 @@
+/* Header */
+
+.header-desayuno-imagen {
+    @extend .header-image;
+}
+
+.header-colaciones-imagen {
+    @extend .header-image;
+}
+
+.header-almuerzo-imagen {
+    @extend .header-image;
+}
+
+#miHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $colorheader;
+    padding: 10px 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-volver {
+    color: $colorbotonvolver;
+    background-color: $bgcolorbotonvolver;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: $colorbotonhover;
+    }
+}
+
+.header-img-fit {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-texto {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}

@@ -1,0 +1,5 @@
+/* mixins */
+@mixin flex-base($direction,$justify){
+    flex-direction: $direction;
+    justify-content: $justify;
+}

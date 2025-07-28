@@ -1,0 +1,23 @@
+/* main */
+
+.imagen-fit {
+    width: auto;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.flex-container {
+    display: flex;
+    @include flex-base(row,space-around);
+}
+
+.alto-carrusel{
+    height: none;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* fondo oscuro translúcido */
+    border-radius: 50%;
+}
